@@ -5,6 +5,10 @@
   font-optical-sizing: auto;
 }
 
+:root{
+    --main-color: #8E2424
+}
+
 header{
     display: flex;
     justify-content: space-around;
@@ -46,9 +50,31 @@ nav a{
 }
 
 #cadastrar{
-    background-color: #8E2424;
+    background-color: var(--main-color);
     color: white;
     border-radius: 8px;
     padding: 16px 8px;
     margin-left: 12px;
+}
+
+#introducao{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#introducao span{
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+#introducao h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#introducao p{
+    font-size: 20px;
+    width: 791px;
 }
