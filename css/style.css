@@ -6,7 +6,8 @@
 }
 
 :root{
-    --main-color: #8E2424
+    --main-color: #8E2424;
+    --text-color: #667085;
 }
 
 header{
@@ -42,7 +43,7 @@ nav{
 nav a{
     background-color: white;
     border: none;
-    color: #667085;
+    color: var(--text-color);
 }
 
 #conta a{
@@ -77,4 +78,23 @@ nav a{
 #introducao p{
     font-size: 20px;
     width: 791px;
+}
+
+#metricas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#metricas div{
+    width: 280px;
+}
+
+#metricas h1{
+    color: var(--main-color);
+    font-size: 60px;
+    margin-bottom: 12px;
+}
+
+#metricas p{
+    color: var(--text-color);
 }
