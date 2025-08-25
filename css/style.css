@@ -58,14 +58,14 @@ nav a{
     margin-left: 12px;
 }
 
-#introducao{
+#introducao, #vagas{
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#introducao span{
+.titulo_secao{
     color: var(--main-color);
     font-weight: 600;
 }
@@ -75,14 +75,16 @@ nav a{
     font-weight: 600;
 }
 
-#introducao p{
+.paragrafo{
     font-size: 20px;
     width: 791px;
+    color: var(--text-color);
 }
 
 #metricas{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 120px;
 }
 
 #metricas div{
@@ -97,4 +99,15 @@ nav a{
 
 #metricas p{
     color: var(--text-color);
+}
+
+.subtitulo_secao{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.img_destaque{
+    width: 90%;
+    margin: 64px;
 }
